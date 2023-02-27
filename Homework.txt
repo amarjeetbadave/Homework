@@ -1,0 +1,46 @@
+
+
+// Here we are intialised array of 5 elements and its fixed value. We can also take input from user with help of scanf function.
+
+ float laptop_price[5]={12230.50,65878.34,65777.89,87970.76,67890.60};
+//     laptop_price[5]={    0      1       2        3          4    };
+
+
+// here our main fuction starts or execution of program starts with this main function.
+
+ int main ()
+{
+
+// Now we want to print values of laptop and this not a single laptop so writing each laptop price is time consuming method so loops comes into picture so i will prefer for loop here.
+
+
+for ( laptop_id = 0; laptop_id < 5; laptop_id++;)
+
+{
+
+//so here initially laptop_id variable is used for show the index position of array.
+// at intially laptop_id will be 0 so it shows laptop_price[0] and it gives us value of (1230.50)
+// in this way we can do that for remaining 4 laptops as well.
+// Now we will see how its exactly looks likes.
+
+		laptop_id= index number of array		
+
+		laptop_price[0]={12230.50}
+		laptop_price[1]={65878.34}
+		laptop_price[2]={65777.89}
+		laptop_price[3]={87970.76}
+		laptop_price[4]={67890.60}
+
+//above all values we can use in the printf function we without writing again and again same line of code by using loops we can write in very short line of code.
+
+printf(" price of laptop = %f \n ", laptop_price[laptop_id]; 
+
+}// this for loop
+}// this for main function 
+
+at the end "}" this closing bracket shows termination of any funtion or loops.
+
+
+
+
+
